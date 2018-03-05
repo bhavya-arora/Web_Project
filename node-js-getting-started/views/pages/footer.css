@@ -1,0 +1,784 @@
+ody {
+  background-color: red;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: bl background: rgba(0, 0, 0, 0.1);
+  display: block;
+  border-radius: 30px;
+  color: white;
+  width: 2px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+#footer:hover {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-shadow: 1px 1px 1px black;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  color: white;
+  width: 50%;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  box-shadow: inset 0px 1px rgba(255, 255, 255, 0.3), inset 0px 25px 20px rgba(255, 255, 255, 0.3), inset 0 -25px 30px rgba(0, 0, 0, 0.3);
+}
+
+#footer_menu {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+#footer_menu li {
+  list-style: none;
+  float: left;
+  padding: 12px 14px 14px 14px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#footer_menu li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#footer_menu li a {
+  display: block;
+  text-decoration: none;
+  color: #cccccc;
+}
+
+#footer_menu li a:hover {
+  color: white;
+}
+
+#footer_menu .homeButton {
+  padding: 5px 8px 0px 10px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 0.5px solid white;
+}
+
+#footer_menu .homeButton:hover {
+  border: none;
+}
+
+#footer_menu .homeButton a {
+  width: 25px;
+  height: 35px;
+}
+
+#footer_menu .homeButton a:hover {
+  margin-top: -5px;
+}
+
+#vella {
+  display: absolute;
+  top: 450px;
+  left: 600px;
+  height: 50px;
+  width: 200px;
+  background: #bfc3c8;
+  font-family: font-family: 'Nunito', sans-serif;
+  color: black;
+  text-indent: 30px;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  letter-spacing: 4px;
+}
+
+#vella:hover {
+  cursor: pointer;
+  color: black;
+  background: white;
+}
+
+#footer_menu li ul.dropup {
+  display: none;
+}
+
+#footer_menu li:hover ul.dropup {
+  display: block;
+  bottom: 40px;
+  position: absolute;
+  margin: 0 0 0 -15px;
+  width: 110px;
+  border: 1px solid black;
+  border-bottom: none;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+#footer_menu li:hover li {
+  float: none;
+  background: none;
+  boder: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 0px;
+  padding-right: 50px;
+  font-size: 20px
+}
+
+#notification {
+  float: right;
+  height: 40px;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  background: rgba(0, 0, 0, 0);
+}
+
+#footer #notification li {
+  float: left;
+  width: 60px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  background: rgba(0, 0, 0, 0);
+  list-style: none;
+  border-right: none;
+}
+
+#footer #notification li:hover {
+  background: none;
+}
+
+#footer #notification li.notificationIcon a {
+  margin-right: -4px;
+}
+
+#footer #notification li.notificationIcon a:hover {
+  margin-left: -4px;
+}
+
+#logout {
+  float: right;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+#logout li {
+  list-style: none;
+  padding: 12px 14px 14px 19px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#footer #logout li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#footer #logout li a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+#footer #logout li a:hover {
+  color: white;
+}
+
+#footer_menu li div.one_column {
+  display: none;
+}
+
+#footer_menu li:hover div.one_column {
+  display: block;
+  width: 140px;
+  position: absolute;
+  bottom: 40px;
+  background: rgba(0, 0, 0, 0.4);
+  margin-left: -15px;
+  padding: 0px;
+}
+
+#footer_menu li div.col_1 {
+  padding: 10px;
+  text-align: left;
+}
+
+#footer_menu li a.heading {
+  text-decoration: underline;
+  margin-top: 7px;
+  color: red;
+  font-size: 20px;
+}
+
+#footer_menu li div.two_column {
+  display: none;
+}
+
+#footer_menu li:hover div.two_column {
+  display: block;
+  width: 420px;
+  position: absolute;
+  bottom: 40px;
+  background: rgba(0, 0, 0, 0.4);
+  margin-left: -15px;
+  padding: 0px;
+}
+
+#swapping {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+  display: block;
+  top: 340px;
+  left: 1250px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#swapping:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#swapping #swapped {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background: rgba(0, 0, 0, 0);
+}
+
+#swapping #swapped .swap a:hover {
+  margin-left: 5px;
+}
+
+#lswapping {
+  diplay: block;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+  top: 300px;
+  left: 30px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 30px;
+}
+
+#lswapping:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#lswapping a:hover {
+  margin-left: -5px;
+}
+
+#pic {
+  background-repeat: no-repeat;
+  background: url(learn-to-code-what-is-programming-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  height: 700px;
+  width: 1350px;
+  color: white;
+  font-family: 'Fresca', sans-serif;
+  line-height: 40px;
+  top: 50px;
+  left: 0;
+  text-indent: 90px;
+  font-size: 50px;
+  box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2), 0 4px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+#pic:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+grad {
+  display: block;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  background: white;
+  top: 700px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#topBar {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+#topBar .topBarUl {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 50px;
+}
+
+#topBar .topBarUl li {
+  width: 50px;
+  float: left;
+  height: 45px;
+  padding-left: 5px;
+  padding-top: 5px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  border-top: 2px solid white;
+}
+
+#topBar .topBarUl li:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border-top: 2px solid black
+}
+
+#topBar .topBarUl li a img {
+  width: 40px;
+  height: 40px;
+}
+
+#topBar #search {
+  left: 1150px;
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  padding-top: 14px;
+  margin: 0;
+  top: 0px;
+  border-top: 2px solid white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+#topBar #search:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-top: 2px solid black;
+  text-decoration: none;
+}
+
+#middleName {
+  display: block;
+  position: absolute;
+  padding-left: 10px;
+  margin: 0;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 10px;
+  left: 600px;
+  width: 110px;
+  height: 30px;
+  color: black;
+  text-indent: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+#introduction {
+  display: block;
+  position: absolute;
+  width: 1350px;
+  top: 770px;
+  left: 0;
+  height: 480px;
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+#introduction1 {
+  display: block;
+  position: absolute;
+  width: 1350px;
+  top: 1200px;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  left: 0;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  padding-top: 250px;
+  font-family: 'Aclonica';
+  font-size: 22px;
+  background-image: url("12-sunrise-picture.jpg");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#aboutUs {
+  display: block;
+  background: white;
+  position: absolute;
+  padding: 0;
+  left: 0;
+  margin: 0;
+  top: 1720px;
+  width: 1352px;
+  height: 500px;
+  display: block;
+}
+
+#loginForm {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  z-index: 15;
+  top: 50%;
+  left: 45%;
+  margin: -100px 0 0 -150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#loginForm .inputBox {
+  margin-top: 30px;
+  margin-left: 90px;
+  width: 300px;
+  height: 50px;
+}
+
+#loginForm .loginBox {
+  width: 90px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 100px;
+  background: #303030;
+  color: white;
+}
+
+#loginForm .loginBox:hover {
+  background: #E8E8E8;
+  color: black;
+}
+
+#aboutForm {
+  position: absolute;
+  width: 1100px;
+  height: 1000px;
+  background-color: #F8F8F8;
+  top: 50%;
+  left: 20%;
+  margin: -100px 0 0 -150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#blogForm {
+  position: absolute;
+  width: 1100px;
+  height: auto;
+  top: 50%;
+  left: 25%;
+  margin: -100px 0 0 -150px;
+}
+
+#blogList li {
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  list-style: none;
+  margin: 20px;
+  padding: 0px;
+  background: #303030;
+  border-radius: 15px 30px 45px 7.5px;
+  color: white;
+  width: 80%;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#blogList li:hover {
+  background: #E8E8E8;
+  color: black;
+}
+
+#loginmessage {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  z-index: 15;
+  top: 40%;
+  color: red;
+  left: 55%;
+  margin: -100px 0 0 -150px;
+}
+
+#articleForm {
+  position: absolute;
+  width: 1100px;
+  height: 1000px;
+  background-color: #F8F8F8;
+  z-index: 15;
+  top: 50%;
+  left: 20%;
+  margin: -100px 0 0 -150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#creatediv .createArticle {
+  position: absolute;
+  width: 150px;
+  margin-top: 100px;
+  height: 60px;
+  background: #303030;
+  color: white;
+  text-align: center;
+  z-index: 15;
+  top: 30%;
+  left: 55%;
+  margin: -100px 0 0 -150px;
+}
+
+#creatediv {
+  color: black;
+}
+
+#creatediv .createArticle:hover {
+  background: #E8E8E8;
+  color: black;
+}
+
+#articleBox {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  z-index: 15;
+  top: 10%;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+}
+
+#articleBox .articleusername {
+  margin-top: 30px;
+  margin-left: 90px;
+  width: 300px;
+  height: 50px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=password]:focus {
+  border: 3px solid #555;
+}
+
+#firstlogin {
+  position: absolute;
+  width: 300px;
+  margin-top: 100px;
+  height: 30px;
+  color: red;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  z-index: 15;
+  top: 45%;
+  left: 55%;
+  margin: -100px 0 0 -180px;
+}
+
+#createarticleresponse {
+  position: absolute;
+  width: 300px;
+  margin-top: 100px;
+  height: 30px;
+  color: red;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  z-index: 15;
+  top: 35%;
+  left: 50%;
+  margin: -100px 0 0 -180px;
+}
+
+#aboutForm #aboutmepic img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 20%;
+  left: 30%;
+  border-radius: 50%;
+  margin: -100px 0 0 -180px;
+}
+
+#aboutForm #aboutmepic1 img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 20%;
+  left: 60%;
+  border-radius: 50%;
+  margin: -100px 0 0 -180px;
+}
+
+#aboutForm #aboutmepic2 img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 20%;
+  left: 90%;
+  border-radius: 50%;
+  margin: -100px 0 0 -180px;
+}
+
+#container1 {
+  position: absolute;
+  width: 1000px;
+  text-indent: 50px;
+  line-height: 1.5;
+  height: 1000px;
+  z-index: 15;
+  top: 50%;
+  left: 20%;
+  margin: -50px 0px 0 -150px;
+  color: #585858;
+}
+
+#sitefooter {
+  width: 1350px;
+  height: 60px;
+  position: absolute;
+  top: 2200px;
+  text-align: center;
+  color: white;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0;
+  padding-top: 30px;
+  margin: 0;
+  background: #303030;
+  display: block;
+}
+
+#contactForm {
+  position: absolute;
+  width: 500px;
+  top: 25%;
+  left: 34%;
+  text-align: center;
+}
+
+#hideShowButton {
+  background: white;
+  height: 30px;
+  width: 40px;
+  cursor: pointer;
+  border: none;
+}
+
+#hideShowBox {
+  padding: 0px;
+  height: 30px;
+  width: 40px;
+  margin-left: 400px;
+  margin-top: -50px;
+}
+
+#followUs {
+  padding-top: 0px;
+  margin: 0px;
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 40px;
+  height: 200px;
+  width: auto;
+}
+
+#followUs li {
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding-right: 180px;
+  padding-left: 30px;
+}
+
+#followUs li img {
+  height: 200px;
+  width: 200px;
+}
+
+#followUs li img:hover {
+  height: 210px;
+  width: 210px;
+}
